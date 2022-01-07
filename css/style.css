@@ -1,0 +1,55 @@
+@import url(//db.onlinewebfonts.com/c/3c6b0199ae7b57966132e83c939d77e2?family=Futura+PT+Medium);
+main{
+    font-family: Futura;
+}
+.content1{
+    height: 100vh;
+    background-image: url(../image/shopping-new-york-full.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.container {
+    width: 1140px;
+}
+
+.row {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+h2{
+    margin-top: 60px;
+    margin-bottom:60px;
+    
+}
+.card-text1{
+    height: 5rem;
+    
+}
+.card-text{
+    height: 2rem;
+    font-weight: 600;
+}
+
+.card-body {
+    height: 10rem;
+    text-align: center;
+}
+.card{
+    border: none;
+}
+
+.row2 {
+    margin-bottom: 70px;
+}
+.carousel-item{
+    height: 100px;
+}
+li{
+    list-style: none;
+}
+.container2 {
+    margin: 200px 0px;
+    text-align: center;
+}
+
