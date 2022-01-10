@@ -1,0 +1,45 @@
+.filtre{
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding: auto;
+    width: 300px;
+
+}
+.container{
+    display: flex;
+}
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.check{
+    display: flex;
+}
+.couleur{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+}
+.card {
+    margin: 10px 10px 10px 10px;
+    
+}
+#articletitle {
+    width: 100%;
+}
+
+
+
+
+
+li{
+    list-style: none;
+}
+
