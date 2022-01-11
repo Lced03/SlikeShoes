@@ -1,10 +1,10 @@
-@import url(//db.onlinewebfonts.com/c/3c6b0199ae7b57966132e83c939d77e2?family=Futura+PT+Medium);
-main{
-    font-family: Futura;
+body{
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
+
 .content1{
     height: 100vh;
-    background-image: url(../image/shopping-new-york-full.jpg);
+    background-image: url(https://cdn.shopify.com/s/files/1/0557/2172/2044/files/2021-02_EKH21-59_copie_2808x.jpg?v=1630660148);
     background-repeat: none;
     background-size: cover;
 }
@@ -17,15 +17,19 @@ main{
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+
 h2{
     margin-top: 60px;
     margin-bottom:60px;
     
 }
+
 .card-text1{
     height: 5rem;
     
 }
+
 .card-text{
     height: 2rem;
     font-weight: 600;
@@ -35,6 +39,7 @@ h2{
     height: 10rem;
     text-align: center;
 }
+
 .card{
     border: none;
 }
@@ -42,12 +47,15 @@ h2{
 .row2 {
     margin-bottom: 70px;
 }
+
 .carousel-item{
     height: 100px;
 }
+
 li{
     list-style: none;
 }
+
 .container2 {
     margin: 200px 0px;
     text-align: center;
