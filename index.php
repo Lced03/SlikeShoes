@@ -12,16 +12,12 @@
 </head>
 
 <body>
-    <header>
-
-
-    </header>
+    <header><?php require_once("header.php"); ?> </header>
     <main>
         <div class="content1">
         </div>
         <div class="container">
             <h2>Nos coups de coeur </h2>
-            <button><a href="boutique.html">go à la boutique</a></button>
             <div class="row">
                 <div class="col">
                     <div class="cards" style="width: 14rem;">
@@ -135,13 +131,10 @@
 
 
     </main>
-    <footer>
-
-
-    </footer>
+    <footer><?php require_once("footer.php") ?></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
