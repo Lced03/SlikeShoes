@@ -1,3 +1,12 @@
+@font-face{
+    font-family: "Futura LT";
+    src: url("../FuturaLT-CondensedBold.eot") format('eot'),
+    url('../FuturaLT-CondensedBold.ttf') format('truetype'),
+    url('../FuturaLT-CondensedBold.woff') format('woff');
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@300&family=Montserrat&family=Nunito&display=swap');
+
 header ._cont,
 .collection .settings,
 .collection-list a .variants,
@@ -49,55 +58,6 @@ footer .bottom .left nav ul:after,
     height: 0
 }
 
-/*@font-face {
-    font-family: 'montserratlight';
-    src: url("montserrat-light-webfont.eot");
-    src: url("montserrat-light-webfont.eot?#iefix") format("embedded-opentype"), url("montserrat-light-webfont.woff") format("woff"), url("montserrat-light-webfont.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal
-}
-@font-face {
-    font-family: 'montserratregular';
-    src: url("montserrat-regular-webfont.eot");
-    src: url("montserrat-regular-webfont.eot?#iefix") format("embedded-opentype"), url("montserrat-regular-webfont.woff") format("woff"), url("montserrat-regular-webfont.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal
-}
-@font-face {
-    font-family: 'montserratbold';
-    src: url("montserrat-bold-webfont.eot");
-    src: url("montserrat-bold-webfont.eot?#iefix") format("embedded-opentype"), url("montserrat-bold-webfont.woff") format("woff"), url("montserrat-bold-webfont.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal
-}
-@font-face {
-    font-family: 'robotolight';
-    src: url("roboto-light-webfont.eot");
-    src: url("roboto-light-webfont.eot?#iefix") format("embedded-opentype"), url("roboto-light-webfont.woff") format("woff"), url("roboto-light-webfont.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal
-}
-@font-face {
-    font-family: 'robotoregular';
-    src: url("roboto-regular-webfont.eot");
-    src: url("roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("roboto-regular-webfont.woff") format("woff"), url("roboto-regular-webfont.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal
-}
-@font-face {
-    font-family: 'robotobold';
-    src: url("roboto-bold-webfont.eot");
-    src: url("roboto-bold-webfont.eot?#iefix") format("embedded-opentype"), url("roboto-bold-webfont.woff") format("woff"), url("roboto-bold-webfont.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal
-}
-@font-face {
-    font-family: 'robotoblack';
-    src: url("roboto-black-webfont.eot");
-    src: url("roboto-black-webfont.eot?#iefix") format("embedded-opentype"), url("roboto-black-webfont.woff") format("woff"), url("roboto-black-webfont.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal
-}*/
 
 html,
 body,
@@ -237,7 +197,7 @@ button {
 }
 
 body {
-    font-family: "montserratlight", sans-serif;
+    font-family: "FUTURA LT",'Nunito', 'sans-serif';
     background-color: #fff;
     color: #16161a;
     font-size: 81.25%;
@@ -562,7 +522,7 @@ body {
 .product-detail h1 {
     font-size: 184.61538%;
     line-height: 141.66667%;
-    font-family: "montserratregular", sans-serif
+    font-family: "'FUTURAT LT', 'Nunito'", sans-serif
 }
 .product-detail a {
     font-size: 100%;
@@ -585,7 +545,7 @@ body {
 .product-detail .price {
     font-size: 369.23077%;
     line-height: 108.33333%;
-    font-family: "montserratbold", sans-serif;
+    font-family: 'FUTURA LT', 'NUNITO', sans-serif;
     color: brown;
     float: left;
     letter-spacing: -2px
@@ -595,7 +555,7 @@ body {
     float: left
 }
 .product-detail #AddToCart {
-    font-family: "montserratbold", sans-serif;
+    font-family: 'FUTURA LT', 'NUNITO', sans-serif;
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
     border-radius: 25px;
@@ -635,7 +595,7 @@ body {
 .related h2 {
     font-size: 184.61538%;
     line-height: 150%;
-    font-family: "montserratregular", sans-serif;
+    font-family: "'FUTURAT LT', 'Nunito'", sans-serif;
     text-align: center
 }
 
@@ -697,7 +657,7 @@ body {
     background-color: brown;
 }
 .spinner input {
-    font-family: "montserratlight", sans-serif;
+    font-family: "FUTURA LT", "Nunito" sans-serif;
     border: 0 none;
     color: #16161a;
     display: block;
@@ -1246,7 +1206,7 @@ body {
         bottom: 0
     }
     /*.social-sharing-btn-wrapper {
-        font-family: "montserratregular", sans-serif;
+        font-family: "'FUTURAT LT', 'Nunito'", sans-serif;
         font-size: 92.30769%;
         line-height: 133.33333%;
         display: block
@@ -1378,7 +1338,7 @@ body {
     margin-right: 0
 }
 .swatch .header {
-    font-family: "montserratbold", sans-serif;
+    font-family: 'FUTURA LT', 'NUNITO', sans-serif;
     text-transform: uppercase
 }
 .swatch input {
@@ -1437,7 +1397,7 @@ body {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    font-family: "montserratbold", sans-serif;
+    font-family: 'FUTURA LT', 'NUNITO', sans-serif;
     border: 1px solid brown;
     color: black;
     cursor: pointer;
