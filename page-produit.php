@@ -74,15 +74,6 @@ if($produit['stock'] > 0) {
             <meta itemprop="image"
                 content="https://cdn.shopify.com/s/files/1/0557/2172/2044/products/ilian_58205_639b_360x.jpg?v=1633501513">
             <div class="shadow">
-                <div class="content">
-                    <style>
-                    h1 {
-                        color: #26b72b;
-                        z-index: 1000;
-                    }
-                    </style>
-                    <h1>hello ! </h1>
-                </div>
                 <div class="_cont detail-top">
                     <div class="cols">
                         <div class="left-col">
