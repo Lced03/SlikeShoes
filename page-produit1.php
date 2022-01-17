@@ -36,36 +36,10 @@ if($produit['stock'] > 0) {
 
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="UTF-8">
-
-    <link rel="apple-touch-icon" type="image/png"
-        href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
-    <meta name="apple-mobile-web-app-title" content="CodePen">
-
-    <link rel="shortcut icon" type="image/x-icon"
-        href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
-
-    <link rel="mask-icon" type="image/x-icon"
-        href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg"
-        color="#111">
-
-
-    <title> Page produits</title>
-
-
-    <link rel="stylesheet" href="../css/produit-style.css">
-
-
-</head>
 
 <?php require_once("header.php") ?>
 
-<body translate="no">
+<body>
 
     <section aria-label="Main content" role="main" class="product-detail">
         <div itemscope="" itemtype="http://schema.org/Product">
@@ -74,15 +48,6 @@ if($produit['stock'] > 0) {
             <meta itemprop="image"
                 content="https://cdn.shopify.com/s/files/1/0557/2172/2044/products/ilian_58205_639b_360x.jpg?v=1633501513">
             <div class="shadow">
-                <div class="content">
-                    <style>
-                    h1 {
-                        color: #26b72b;
-                        z-index: 1000;
-                    }
-                    </style>
-                    <h1>hello ! </h1>
-                </div>
                 <div class="_cont detail-top">
                     <div class="cols">
                         <div class="left-col">
@@ -114,11 +79,9 @@ if($produit['stock'] > 0) {
                                     quickbeam="image"><?= "<img height=\"650\" src=\"$produit[photo]\">" ?> </span>
                                 <div id="banner-gallery" class="swipe">
                                     <div class="swipe-wrap">
-                                        <div
-                                            style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/ilian_58205_639b_360x.jpg?v=1633501513')">
+                                        <div style="background-image: url('./images/3.jpg')">
                                         </div>
-                                        <!--<div style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/ilian_58205_639a_120x.jpg?v=1633501513')"></div>
-                    <div style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/2021-02_EmilieKarstonH21-22_sansgrain_-84_8cc675f6-378d-4cbf-8c07-78c152f7de0d_540x.jpg?v=1633501513')"></div>-->
+
                                     </div>
                                 </div>
                                 <div class="detail-socials">
@@ -291,8 +254,7 @@ if($produit['stock'] > 0) {
                                 <span
                                     style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/ORPLOU_57206_716_4_bce4c568-27a2-4b23-9a4c-c0a42adf9f61_540x.jpg?v=1630928583')"
                                     class="i first"></span>
-                                <span class="i second"
-                                    style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/ORPLOU_57206_716_4_bce4c568-27a2-4b23-9a4c-c0a42adf9f61_540x.jpg?v=1630928583')"></span>
+                                <span class="i second" style="background-image: url('./images/2.jpg')"></span>
                             </span>
                             <span class="text">
                                 <strong>ORPLOU</strong>

@@ -6,33 +6,6 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@300&family=Montserrat&family=Nunito&display=swap');
 
-header ._cont,
-.collection .settings,
-.collection-list a .variants,
-.product-detail .price-shipping,
-.product-detail .btn-and-quantity-wrap,
-.product-detail .btn-and-quantity,
-.spinner,
-.tabs .tab-labels,
-.detail-socials,
-.detail-socials .social-sharing,
-.homepage .main-services ol,
-.homepage .main-text .links,
-.socials ul,
-.cart .cart-products .product,
-.cart .cart-products .p-count-price,
-.cart .inputs,
-footer .top,
-footer .bottom,
-footer .bottom .left nav ul,
-.swatches,
-.swatch {
-    display: block
-}
-
-header ._cont:after,
-.collection .settings:after,
-.collection-list a .variants:after,
 .product-detail .price-shipping:after,
 .product-detail .btn-and-quantity-wrap:after,
 .product-detail .btn-and-quantity:after,
@@ -43,12 +16,9 @@ header ._cont:after,
 .homepage .main-services ol:after,
 .homepage .main-text .links:after,
 .socials ul:after,
-.cart .cart-products .product:after,
+/*.cart .cart-products .product:after,
 .cart .cart-products .p-count-price:after,
-.cart .inputs:after,
-footer .top:after,
-footer .bottom:after,
-footer .bottom .left nav ul:after,
+.cart .inputs:after,*/
 .swatches:after,
 .swatch:after {
     clear: both;
@@ -58,95 +28,6 @@ footer .bottom .left nav ul:after,
     height: 0
 }
 
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline
-}
 html {
     line-height: 1
 }
@@ -156,15 +37,10 @@ a img {
 }
 
 * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    outline: 0 none
 }
 body {
-    background-color: rgb(250, 0, 0) ; 
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    background-color: #fff;
 }
 img {
     max-width: 100%
@@ -188,9 +64,6 @@ a {
     cursor: pointer
 }
 a:active,
-a:focus {
-    outline: none
-}
 
 button {
     cursor: pointer
@@ -209,10 +82,6 @@ body {
     margin: 0 auto;
     width: 1110px
 }
-/*._cont2 {
-    margin: 0 auto;
-    width: 700px
-}*/
 
 .text {
     margin: 0 auto;
@@ -1102,8 +971,7 @@ body {
         font-size: 107.69231%;
         line-height: 171.42857%;
         margin: 25px 0 2px;
-        text-align: center;
-        color: red;
+        text-align: center
     }
     .product-detail .price-shipping {
         padding-bottom: 10px;

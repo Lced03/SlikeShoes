@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header><?php require_once("header.php"); ?></header>
+
     <main>
         <div class="btn">
             <img src="https://img.icons8.com/ios-filled/50/000000/long-arrow-up.png" / class="icone">
@@ -147,7 +147,7 @@
 
     </main>
     <footer>
-        <footer><?php require_once("footer.php") ?></footer>
+        <footer><?php include("footer.php") ?></footer>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
