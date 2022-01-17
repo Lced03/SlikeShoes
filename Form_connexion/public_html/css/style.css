@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+#content1{
+    height: 110vh;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-position-y: 45%;
+}
+
+
+
+.row {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+h2{
+    margin-top: 60px;
+    margin-bottom:60px;
+    font-size:40px;
+}
+
+.row2 {
+    margin-bottom: 70px;
+}
+
+.carousel-item{
+    height: 100px;
+}
+
+li{
+    list-style: none;
+}
+
+.container2 {
+    margin: 200px 0px;
+    text-align: center;
+}
+
+
+@media(max-width: 767px){
+    .body{
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+@media(max-width: 574px){
+    .body{
+        width: 100%;
+    }
+}

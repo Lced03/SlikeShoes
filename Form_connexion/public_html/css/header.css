@@ -1,0 +1,46 @@
+nav a:hover{
+background-color: rgb(20, 20, 20);
+}
+#logo{
+    padding-left: 1.5em;
+    height: 80px;
+}
+.dropdown-item:hover{
+    background-color: #ddc01f;
+}
+#recherche{
+    border-radius: 0;
+    width: 10em;
+    margin-left: 1em;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 10px;
+}
+#bouton{
+    border-radius: 0;
+    padding: 0px;
+}
+#menu{
+    justify-content: center;
+}
+#bouton3{
+    padding-right: 1.5em;
+}
+#bouton2{
+    padding-left: 1em;
+}
+#menu_brg{
+    margin-right:13px ;
+}
+li{font-family: 'Bebas Neue', cursive;font-size: 23px;}
+
+
+.navbar-collapse {
+    flex-grow: 0 ;
+}
+
+.input-group-append{
+    padding-top: 20px;
+}
+
+
+
