@@ -102,7 +102,7 @@ require_once("init.inc.php");
             }
         }, 5000);
         </script>
-
+        coucou!
     </main>
 
     <footer><?php require_once("footer.php") ?></footer>
