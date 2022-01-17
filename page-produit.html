@@ -2,7 +2,15 @@
 <html lang="en"><head>
 
     <meta charset="UTF-8">
-
+    
+  <link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+  <meta name="apple-mobile-web-app-title" content="CodePen">
+  
+  <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+  
+  <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+  
+  
     <title> Page produits</title>
     
     
@@ -11,13 +19,12 @@
   
   </head>
   
-  <body >
+  <body translate="no">
  
-    <!-- aria-lable : pour les usagers aveugles ou malvoyant -->
   <section aria-label="Main content" role="main" class="product-detail">
-    <!--<div itemscope="" itemtype="http://schema.org/Product">
+    <div itemscope="" itemtype="http://schema.org/Product">
       <meta itemprop="url" content="http://html-koder-test.myshopify.com/products/tommy-hilfiger-t-shirt-new-york">
-      <meta itemprop="image" content="https://cdn.shopify.com/s/files/1/0557/2172/2044/products/ilian_58205_639b_360x.jpg?v=1633501513">-->
+      <meta itemprop="image" content="https://cdn.shopify.com/s/files/1/0557/2172/2044/products/ilian_58205_639b_360x.jpg?v=1633501513">
       <div class="shadow">
         <div class="_cont detail-top">
           <div class="cols">
@@ -43,7 +50,7 @@
                   </div>
                 </div>
                 <div class="detail-socials">
-                  <div class="social-sharing" >
+                  <div class="social-sharing" data-permalink="http://html-koder-test.myshopify.com/products/tommy-hilfiger-t-shirt-new-york">
                     <a target="_blank" class="share-facebook" title="Share"></a>
                     <a target="_blank" class="share-twitter" title="Tweet"></a>
                     <a target="_blank" class="share-pinterest" title="Pin it"></a>
@@ -53,6 +60,9 @@
             </div>
             <div class="right-col">
               <h1 itemprop="name">ILLIAN</h1>
+              <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+                <meta itemprop="priceCurrency" content="Euro">
+                <link itemprop="availability" href="https://schema.org/InStock">
                 <div class="price-shipping">
                   <div class="price" id="price-preview" quickbeam="price" quickbeam-price="140">
                     €140
@@ -66,24 +76,28 @@
                       <input id="swatch-0-36" type="radio" name="option-0" value="36" checked="">
                       <label for="swatch-0-36">
                         36
+                        <img class="crossed-out" src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886">
                       </label>
                     </div>
                     <div data-value="37" class="swatch-element plain 37 available">
                       <input id="swatch-0-37" type="radio" name="option-0" value="37">
                       <label for="swatch-0-37">
                         37
+                        <img class="crossed-out" src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886">
                       </label>
                     </div>
                     <div data-value="38" class="swatch-element plain 38 available">
                       <input id="swatch-0-38" type="radio" name="option-0" value="38">
                       <label for="swatch-0-38">
                         38
+                        <img class="crossed-out" src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886">
                       </label>
                     </div>
                     <div data-value="39" class="swatch-element plain 39 available">
                       <input id="swatch-0-39" type="radio" name="option-0" value="39">
                       <label for="swatch-0-39">
                         39
+                        <img class="crossed-out" src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886">
                       </label>
                     </div>
                   </div>
@@ -91,22 +105,25 @@
                     <div class="header">Couleur</div>
                     <div data-value="Red" class="swatch-element color red available">
                       <div class="tooltip">Rouge</div>
-                      <input quickbeam="color" id="swatch-1-red" type="radio" name="option-1" value="red" checked="">
-                      <label for="swatch-1-red" style="border-color: red;">
+                      <input quickbeam="color" id="swatch-1-blue" type="radio" name="option-1" value="Blue" checked="">
+                      <label for="swatch-1-blue" style="border-color: red;">
+                        <img class="crossed-out" src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886">
                         <span style="background-color: red;"></span>
                       </label>
                     </div>
                     <div data-value="Brown" class="swatch-element color brown available">
                       <div class="tooltip">Marron</div>
-                      <input quickbeam="color" id="swatch-1-brown" type="radio" name="option-1" value="Brown">
-                      <label for="swatch-1-brown" style="border-color: brown;">
+                      <input quickbeam="color" id="swatch-1-red" type="radio" name="option-1" value="Brown">
+                      <label for="swatch-1-red" style="border-color: brown;">
+                        <img class="crossed-out" src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886">
                         <span style="background-color: brown;"></span>
                       </label>
                     </div>
                     <div data-value="Black" class="swatch-element color black available">
                       <div class="tooltip">Noir</div>
-                      <input quickbeam="color" id="swatch-1-black" type="radio" name="option-1" value="Black">
-                      <label for="swatch-1-black" style="border-color: black;">
+                      <input quickbeam="color" id="swatch-1-yellow" type="radio" name="option-1" value="Black">
+                      <label for="swatch-1-yellow" style="border-color: black;">
+                        <img class="crossed-out" src="//cdn.shopify.com/s/files/1/1047/6452/t/1/assets/soldout.png?10994296540668815886">
                         <span style="background-color: black;"></span>
                       </label>
                     </div>
@@ -138,6 +155,7 @@
                   </div>
                 </div>
                 <div class="social-sharing-btn-wrapper">
+                  <span id="social_sharing_btn">Share</span>
                 </div>
               </div>
             </div>
@@ -174,7 +192,7 @@
                
               </span>
             </a>
-            <a class="product-box">
+            <a href="/collections/men/products/copy-of-copy-of-copy-of-tommy-hilfiger-t-shirt-new-york-4" class="product-box">
               <span class="img">
                 <span style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/ORPLOU_57206_716_4_bce4c568-27a2-4b23-9a4c-c0a42adf9f61_540x.jpg?v=1630928583')" class="i first"></span>
                 <span class="i second" style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/ORPLOU_57206_716_4_bce4c568-27a2-4b23-9a4c-c0a42adf9f61_540x.jpg?v=1630928583')"></span>
@@ -203,6 +221,5 @@
       </aside>
     </div>
   
-  </section> 
-</body>
-</html> 
+  </section>
+  

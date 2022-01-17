@@ -1,17 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
-    font-family: ,Trebuchet MS,Arial,sans-serif;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 
-.content1{
-    height: 100vh;
-    background-image: url(https://cdn.shopify.com/s/files/1/0557/2172/2044/files/2021-02_EKH21-59_copie_2808x.jpg?v=1630660148);
-    background-repeat: none;
+#content1{
+    height: 110vh;
+    background-image: url("../images/background.png");
     background-size: cover;
+    background-position-y: 45%;
 }
 
-.container {
-    width: 1140px;
-}
+
 
 .row {
     margin-top: 100px;
@@ -22,26 +25,7 @@ body{
 h2{
     margin-top: 60px;
     margin-bottom:60px;
-    
-}
-
-.card-text1{
-    height: 5rem;
-    
-}
-
-.card-text{
-    height: 2rem;
-    font-weight: 600;
-}
-
-.card-body {
-    height: 10rem;
-    text-align: center;
-}
-
-.card{
-    border: none;
+    font-size:40px;
 }
 
 .row2 {
@@ -62,3 +46,15 @@ li{
 }
 
 
+@media(max-width: 767px){
+    .body{
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+@media(max-width: 574px){
+    .body{
+        width: 100%;
+    }
+}

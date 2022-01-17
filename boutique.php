@@ -10,13 +10,17 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js ">
     </script>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="./css/styleboutique.css">
+    <link rel="stylesheet" href="../css/styleboutique.css">
+    <link rel="stylesheet" href="../css/upboutton.css">
     <title>boutique</title>
 </head>
 
 <body>
     <header><?php require_once("header.php"); ?></header>
     <main>
+        <div class="btn">
+            <img src="https://img.icons8.com/ios-filled/50/000000/long-arrow-up.png" / class="icone">
+        </div>
         <div class="container">
             <div class="filtre">
                 <h4>Taille</h4>
