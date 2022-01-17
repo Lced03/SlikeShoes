@@ -65,7 +65,7 @@ if($produit['stock'] > 0) {
 
 <?php require_once("header.php") ?>
 
-<body translate="no">
+<body>
 
     <section aria-label="Main content" role="main" class="product-detail">
         <div itemscope="" itemtype="http://schema.org/Product">
