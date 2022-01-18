@@ -10,8 +10,8 @@ session_start();
 
 // ---------------------------------------------------------------
 // définition de constantes
-define("RACINE_SITE", $_SERVER['DOCUMENT_ROOT']. '/slikeshoesprojet/');
-define("URL", 'http://localhost:8888/slikeshoesprojet/');
+define("RACINE_SITE", $_SERVER['DOCUMENT_ROOT']. '/soutenance/SlikeShoes/SlikeShoes/');
+define("URL", 'http://localhost:8888/soutenance/SlikeShoes/SlikeShoes/');
 
 // ---------------------------------------------------------------
 //declaration de variable 

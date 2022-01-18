@@ -6,7 +6,7 @@ background-color: rgb(20, 20, 20);
     height: 80px;
 }
 .dropdown-item:hover{
-    background-color: #ddc01f;
+    background-color: #240ab6;
 }
 #recherche{
     border-radius: 0;
@@ -31,7 +31,8 @@ background-color: rgb(20, 20, 20);
 #menu_brg{
     margin-right:13px ;
 }
-li{font-family: 'Bebas Neue', cursive;font-size: 23px;}
+
+li{font-family: 'Bebas Neue', cursive;}
 
 
 .navbar-collapse {
