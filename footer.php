@@ -12,7 +12,7 @@
 
 <body>
     <footer class="footer">
-        <span></span>
+        <span id="separateur"></span>
         <div class="container">
             <div class="row">
                 <div class="footer-col">

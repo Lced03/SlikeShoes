@@ -73,7 +73,7 @@ ul{
     font-size: 14px;
     
 }
-span{
+#separateur{
     height: 1px;
     background-color: rgb(224, 224, 224);
     content: "";

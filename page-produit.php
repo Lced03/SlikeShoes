@@ -36,32 +36,6 @@ if($produit['stock'] > 0) {
 
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="UTF-8">
-
-    <link rel="apple-touch-icon" type="image/png"
-        href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
-    <meta name="apple-mobile-web-app-title" content="CodePen">
-
-    <link rel="shortcut icon" type="image/x-icon"
-        href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
-
-    <link rel="mask-icon" type="image/x-icon"
-        href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg"
-        color="#111">
-
-
-    <title> Page produits</title>
-
-
-    <link rel="stylesheet" href="../css/produit-style.css">
-
-
-</head>
 
 <?php require_once("header.php") ?>
 
@@ -203,113 +177,118 @@ if($produit['stock'] > 0) {
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="btn-and-quantity-wrap">
-                                    <div class="btn-and-quantity">
-                                        <div class="spinner">
-                                            <span class="btn minus" data-id="2721888517"></span>
-                                            <input type="text" id="updates_2721888517" name="quantity" value="1"
-                                                class="quantity-selector">
-                                            <input type="hidden" id="product_id" name="product_id" value="2721888517">
-                                            <span class="btn plus" data-id="2721888517"></span>
-                                        </div>
-                                        <div id="AddToCart" quickbeam="add-to-cart">
-                                            <span id="AddToCartText">Ajoute au panier</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                <form method="post" action="panier.php">
+                                    <div class="btn-and-quantity-wrap">
+                                        <div class="btn-and-quantity">
+                                            <div class="spinner">
+                                                <span class="btn minus" data-id="2721888517">-</span>
+                                                <input type="text" id="updates_2721888517" name="quantity" value="1"
+                                                    class="quantity-selector">
+                                                <input type="hidden" id="product_id" name="product_id"
+                                                    value="2721888517">
+                                                <span class="btn plus" data-id="2721888517">+</span>
+                                            </div>
+                                            <!---->
+                                            <div id="AddToCart" quickbeam="add-to-cart">
+                                                <input type="submit" name="ajouter_panier" value="Ajouter au panier">
                                 </form>
-                                <div class="tabs">
-                                    <div class="tab-labels">
-                                        <span data-id="1" class="active">Description</span>
-                                    </div>
-                                    <div class="tab-slides">
-                                        <div id="tab-slide-1" itemprop="description" class="slide active">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dicta
-                                            tempora optio exercitationem harum. Officiis facilis nesciunt voluptates
-                                            repudiandae animi ex fugiat quidem doloremque deserunt pariatur veritatis
-                                            nihil, perferendis expedita?
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="social-sharing-btn-wrapper">
-                                    <span id="social_sharing_btn">Share</span>
-                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <aside class="related">
-                <div class="_cont">
-                    <h2>Vous aimerez aussi...</h2>
-                    <div class="collection-list cols-4" id="collection-list" data-products-per-page="4">
-                        <a class="product-box">
-                            <span class="img">
-                                <span
-                                    style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/iliette_56130_019d_540x.jpg?v=1632216367')"
-                                    class="i first"></span>
-                                <span class="i second"
-                                    style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/iliette_56130_019d_540x.jpg?v=1632216367')"></span>
-                            </span>
-                            <span class="text">
-                                <strong>ILIETTE</strong>
-                                <span>
-                                    €170
-                                </span>
-
-                            </span>
-                        </a>
-                        <a class="product-box">
-                            <span class="img">
-                                <span
-                                    style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/glerdan_58144_023b_540x.jpg?v=1630924944')"
-                                    class="i first"></span>
-                                <span class="i second"
-                                    style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/glerdan_58144_023b_540x.jpg?v=1630924944')"></span>
-                            </span>
-                            <span class="text">
-                                <strong>GLERDAN</strong>
-                                <span>
-                                    €155
-                                </span>
-
-                            </span>
-                        </a>
-                        <a href="/collections/men/products/copy-of-copy-of-copy-of-tommy-hilfiger-t-shirt-new-york-4"
-                            class="product-box">
-                            <span class="img">
-                                <span
-                                    style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/ORPLOU_57206_716_4_bce4c568-27a2-4b23-9a4c-c0a42adf9f61_540x.jpg?v=1630928583')"
-                                    class="i first"></span>
-                                <span class="i second"
-                                    style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/ORPLOU_57206_716_4_bce4c568-27a2-4b23-9a4c-c0a42adf9f61_540x.jpg?v=1630928583')"></span>
-                            </span>
-                            <span class="text">
-                                <strong>ORPLOU</strong>
-                                <span>
-                                    €120
-                                </span>
-
-                            </span>
-                        </a>
-                        <a class="product-box">
-                            <span class="img">
-                                <span
-                                    style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/GLERDANverninoir_1080x.jpg?v=1625667606')"
-                                    class="i first"></span>
-                                <span class="i second"
-                                    style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/GLERDANverninoir_1080x.jpg?v=1625667606')"></span>
-                            </span>
-                            <span class="text">
-                                <strong>LUCILLE</strong>
-                                <span>
-                                    €130
-                                </span>
-                            </span>
+                    </form>
+                    <div class="tabs">
+                        <div class="tab-labels">
+                            <span data-id="1" class="active">Description</span>
+                        </div>
+                        <div class="tab-slides">
+                            <div id="tab-slide-1" itemprop="description" class="slide active">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dicta
+                                tempora optio exercitationem harum. Officiis facilis nesciunt voluptates
+                                repudiandae animi ex fugiat quidem doloremque deserunt pariatur veritatis
+                                nihil, perferendis expedita?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-sharing-btn-wrapper">
+                        <span id="social_sharing_btn">Share</span>
                     </div>
                 </div>
-            </aside>
+            </div>
+        </div>
+        </div>
+        </div>
+        <aside class="related">
+            <div class="_cont">
+                <h2>Vous aimerez aussi...</h2>
+                <div class="collection-list cols-4" id="collection-list" data-products-per-page="4">
+                    <a class="product-box">
+                        <span class="img">
+                            <span
+                                style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/iliette_56130_019d_540x.jpg?v=1632216367')"
+                                class="i first"></span>
+                            <span class="i second"
+                                style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/iliette_56130_019d_540x.jpg?v=1632216367')"></span>
+                        </span>
+                        <span class="text">
+                            <strong>ILIETTE</strong>
+                            <span>
+                                €170
+                            </span>
+
+                        </span>
+                    </a>
+                    <a class="product-box">
+                        <span class="img">
+                            <span
+                                style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/glerdan_58144_023b_540x.jpg?v=1630924944')"
+                                class="i first"></span>
+                            <span class="i second"
+                                style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/glerdan_58144_023b_540x.jpg?v=1630924944')"></span>
+                        </span>
+                        <span class="text">
+                            <strong>GLERDAN</strong>
+                            <span>
+                                €155
+                            </span>
+
+                        </span>
+                    </a>
+                    <a href="/collections/men/products/copy-of-copy-of-copy-of-tommy-hilfiger-t-shirt-new-york-4"
+                        class="product-box">
+                        <span class="img">
+                            <span
+                                style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/ORPLOU_57206_716_4_bce4c568-27a2-4b23-9a4c-c0a42adf9f61_540x.jpg?v=1630928583')"
+                                class="i first"></span>
+                            <span class="i second"
+                                style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/ORPLOU_57206_716_4_bce4c568-27a2-4b23-9a4c-c0a42adf9f61_540x.jpg?v=1630928583')"></span>
+                        </span>
+                        <span class="text">
+                            <strong>ORPLOU</strong>
+                            <span>
+                                €120
+                            </span>
+
+                        </span>
+                    </a>
+                    <a class="product-box">
+                        <span class="img">
+                            <span
+                                style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/GLERDANverninoir_1080x.jpg?v=1625667606')"
+                                class="i first"></span>
+                            <span class="i second"
+                                style="background-image: url('https://cdn.shopify.com/s/files/1/0557/2172/2044/products/GLERDANverninoir_1080x.jpg?v=1625667606')"></span>
+                        </span>
+                        <span class="text">
+                            <strong>LUCILLE</strong>
+                            <span>
+                                €130
+                            </span>
+                        </span>
+                </div>
+            </div>
+        </aside>
         </div>
 
     </section>
+
+    <?php require_once("footer.php") ?>

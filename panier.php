@@ -59,13 +59,14 @@ if(empty($_SESSION['panier']['id_produit']))
 }
 
 $content .= '</table>';
+$content .= '<a href="index.php"><input type="submit" value="retour acceuil" name="retour acceuil" class="btn btn-secondary"></a> ';
 ?>
 
 
-<?php require_once("header.inc.php") ?>
+<?php require_once("header.php") ?>
 
 <?= $content ?>
 
 
 
-<?php require_once("footer.inc.php")?>
+<?php require_once("footer.php")?>

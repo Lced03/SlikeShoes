@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-
-
 <head>
     <meta charset="UTF-8">
     <title>header</title>
@@ -23,12 +21,15 @@
         href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg"
         color="#111">
 
+    <!-- liste de feuilles de style -->
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/connexion-style.css">
     <link rel="stylesheet" href="./css/inscription.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/slider.css">
     <link rel="stylesheet" href="./css/profil.css">
-    <link rel="stylesheet" href="./css/produit-style1.css">
+    <link rel="stylesheet" href="./css/produit-style.css">
+    <link rel="stylesheet" href="./contact.css">
 </head>
 
 <body>
@@ -95,10 +96,11 @@
                                 <li class="nav-item">
                                     <a class="nav-link text-light px-3 text-uppercase fw-light"
                                         href="<?= URL ?>connexion.php ">Connexion</a>
-                                    <?php endif ?>
                                 </li>
+                                <?php endif ?>
                                 <li class="nav-item">
-                                    <a class="nav-link text-light px-3 text-uppercase fw-light" href="#">Contact</a>
+                                    <a class="nav-link text-light px-3 text-uppercase fw-light"
+                                        href="contact.php">Contact</a>
                                 </li>
 
                     </ul>
